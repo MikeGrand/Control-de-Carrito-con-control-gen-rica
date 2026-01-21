@@ -1,4 +1,4 @@
-# Control-de-Carrito-con-control-gen-rica
+# Control-de-Carrito-con-control-generica
 Este programa está diseñado para placa ESP32 para un carrito por control de un xbox series (Tambien se puede hacer uso de un control generico)
 
 El programa consiste en un robot móvil controlado mediante una placa o módulo ESP32, que envía señales al driver de motores L298N para mover un vehículo de tres motores DC (dos de impulso y uno para volante) aparte de que el sistema utiliza una alimentación externa basada en dos baterías de lion conectadas para entregar el voltaje necesario al módulo de potencia. 
