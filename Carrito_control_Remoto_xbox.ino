@@ -1,19 +1,16 @@
 #include <Bluepad32.h>
 
-//Pines del motor principal (adelante/atrás)
 const int ENA = 14;
 const int IN1 = 27;
 const int IN2 = 26;
 
-//Pines del motor volante
 const int ENB = 25;
 const int IN3 = 33;
 const int IN4 = 32;
 
-//Configuración PWM
 const int pwmFreq = 20000;
 const int pwmRes = 8;
-const int pwmChannelA = 0; // Motor principal
+const int pwmChannelA = 0; 
 const int pwmChannelB = 1; // Motor volante
 
 GamepadPtr myGamepad;
