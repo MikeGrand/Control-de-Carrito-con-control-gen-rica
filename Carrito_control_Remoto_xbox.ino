@@ -91,12 +91,12 @@ void loop() {
     int ly = myGamepad->axisY();
 
     if (ly < -50) { // Adelante
-      int vel = map(ly, -512, -50, 255, 255); // Máximo PWM siempre
+      int vel = map(ly, -512, -50, 255, 255); 
       moverAdelante(vel);
       Serial.println("Adelante");
     } 
     else if (ly > 50) { // Atrás
-      int vel = map(ly, 50, 512, 255, 255); // Máximo PWM siempre
+      int vel = map(ly, 50, 512, 255, 255); 
       moverAtras(vel);
       Serial.println("Atrás");
     } 
@@ -105,7 +105,6 @@ void loop() {
       Serial.println("Parado");
     }
 
-    //Volante (joystick derecho eje X)
     int rx = myGamepad->axisRX();
 
     if (rx > 50) { // Derecha
